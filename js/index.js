@@ -39,7 +39,7 @@ const showMenu = ( toggleId, navId ) => {
   /*===== COPY Email =====*/
   const copy = document.getElementById( "copy" );
   copy.addEventListener( "click", () => {
-    navigator.clipboard.writeText( "harshac2508@gmail.com" );
+    navigator.clipboard.writeText( "anushasurendrankp333@gmail.com" );
     copy.innerHTML = "copied";
     setTimeout( () => {
       copy.innerHTML = null;
@@ -48,38 +48,37 @@ const showMenu = ( toggleId, navId ) => {
   
   /*===== SCROLL REVEAL ANIMATION =====*/
   const sr = ScrollReveal( {
-    origin: "top",
+   
     distance: "80px",
-    duration: 2000,
-    reset: true,
+    
   } );
   
 //   /*SCROLL HOME*/
-  sr.reveal( ".home-title", {} );
-  sr.reveal( ".button", { delay: 200 } );
-  sr.reveal( ".home-img", { delay: 400 } );
-  sr.reveal( ".home-social-icon", { interval: 200 } );
+//   sr.reveal( ".home-title", {} );
+//   sr.reveal( ".button", { delay: 200 } );
+//   sr.reveal( ".home-img", { delay: 400 } );
+//   sr.reveal( ".home-social-icon", { interval: 200 } );
   
-//   /*SCROLL ABOUT*/
-  sr.reveal( ".about-img", {} );
-  sr.reveal( ".about-subtitle", { delay: 400 } );
-  sr.reveal( ".about-text", { delay: 400 } );
+// //   /*SCROLL ABOUT*/
+//   sr.reveal( ".about-img", {} );
+//   sr.reveal( ".about-subtitle", { delay: 400 } );
+//   sr.reveal( ".about-text", { delay: 400 } );
   
-//   /*SCROLL SKILLS*/
-  // sr.reveal( ".skills-subtitle", {} );
-  sr.reveal( ".skills-text", {} );
-  sr.reveal( ".skills-data", { interval: 100 } );
-//   sr.reveal(".skills-img", { delay: 600 });
+// //   /*SCROLL SKILLS*/
+//   // sr.reveal( ".skills-subtitle", {} );
+//   sr.reveal( ".skills-text", {} );
+//   sr.reveal( ".skills-data", { interval: 100 } );
+// //   sr.reveal(".skills-img", { delay: 600 });
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img", {interval: 500 } );
+  sr.reveal( ".project-img" );
   
 //   /*SCROLL CONTACT*/e
 //   // sr.reveal(".contact-input", { interval: 200 });
 
 // gitHub calender part
-  GitHubCalendar(".calendar", "Harsha-C2508");
+  GitHubCalendar(".calendar", "anushaAnu333");
   // enable responsive functionality
-   GitHubCalendar(".calendar", "Harsha-C2508", { responsive: true });
+   GitHubCalendar(".calendar", "anushaAnu333", { responsive: true });
 
   /* fully completed */
