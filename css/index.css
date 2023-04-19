@@ -5,6 +5,10 @@
 *{
   padding: 2px;
 }
+button{
+  width: 120px;
+   height: 30px;
+}
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -159,7 +163,7 @@ img {
 
     margin-top: -30px;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
     display: flex;
     
     
@@ -496,7 +500,7 @@ img.man-icons {
     
     margin-top: -30px;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
     display: flex;
     
   }
@@ -505,8 +509,7 @@ img.man-icons {
     background-color: var(--first-color);
     border: 1px solid var(--first-color);
     color: #fff;
-   width: 120px;
-   height: 25px;
+   
    margin-left: 4px;
     font-weight: var(--font-semi);
     border-radius: 0.5rem;
@@ -712,7 +715,7 @@ img.man-icons {
 
     margin-top: -30px;
     justify-content: space-between;
-    width:72%;
+    width:100%;
     display: flex;
     
   }
@@ -728,5 +731,25 @@ img.man-icons {
     border-radius: 0.5rem;
     
   }
+  .nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+}
+
+.bd-grid {
+  position: sticky;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+
+}
+
 }
 /* fully completed */
