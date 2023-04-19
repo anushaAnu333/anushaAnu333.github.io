@@ -50,7 +50,8 @@ const showMenu = ( toggleId, navId ) => {
   const sr = ScrollReveal( {
    
     distance: "80px",
-    
+    duration: 1000,
+    reset: true,
   } );
   
 //   /*SCROLL HOME*/
@@ -71,7 +72,7 @@ const showMenu = ( toggleId, navId ) => {
 // //   sr.reveal(".skills-img", { delay: 600 });
   
 //   /*SCROLL projects*/
-  sr.reveal( ".project-img" );
+  sr.reveal( ".project-img", {interval: 500 } );
   
 //   /*SCROLL CONTACT*/e
 //   // sr.reveal(".contact-input", { interval: 200 });
