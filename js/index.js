@@ -98,3 +98,17 @@ const showMenu = ( toggleId, navId ) => {
    // If download attribute is not supported, open the file in a new window
    
  }
+
+ document.getElementById("downloadResumes").addEventListener("click",handleResumeDownload)
+
+  function handleResumeDownload() {
+   console.log("working")
+   const link = document.createElement("a");
+   window.open("https://drive.google.com/file/d/1x5MjVk7RpCN2rkVGVNytjlp1CdqJvb9L/view?usp=sharing", "_blank");
+   link.download = "./img/Anusha-Surendran-Resume.pdf";
+   document.body.appendChild(link);
+   link.click();
+   document.body.removeChild(link);
+   // If download attribute is not supported, open the file in a new window
+   
+ }
