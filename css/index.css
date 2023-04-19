@@ -689,6 +689,15 @@ img.man-icons {
     top: 70%;
    
   }
+  .gitgrid{
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .git{
+    
+    width: 100%;
+  }
   .github{
     width: 100%;
     text-align: left;
