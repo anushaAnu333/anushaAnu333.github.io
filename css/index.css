@@ -1,6 +1,10 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+
+*{
+  padding: 2px;
+}
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -74,9 +78,9 @@ a {
   text-decoration: none;
 }
 img {
-  max-width: 100%;
+ 
   height: auto;
-  display: block;
+
 }
 
 /*===== CLASS CSS ===== */
@@ -565,17 +569,14 @@ img.man-icons {
     font-size: 2rem;
   }
   .home-img {
-    width: 39%;
-    max-width: 420px;
- 
-    
-    margin-top: 2%;
+    width: 88%;
+    max-width: 502px;
+    margin-top: 3%;
   }
-  .homeImg{
-    
-    height: 440px;
-    width: 430px;
-  }
+  .homeImg {
+    height: 347px;
+    width: 278px;
+}
   .aboutBox{
     text-align: center;
     width: 100%;
@@ -662,6 +663,7 @@ img.man-icons {
     
     height: 350px;
     width: 300px;
+    margin-left: 249px;
   }
   .aboutBox{
     text-align: center;
@@ -675,11 +677,10 @@ img.man-icons {
 }
 
 @media screen and (max-width: 380px){
-  .homeImg{
-    
-    height: 100%;
-    width: 100%;
-  }
+  .homeImg {
+    height: 116%;
+    width: 113%;
+}
   .home-img {
     right: 10%;
     top: 70%;
@@ -711,7 +712,7 @@ img.man-icons {
 
     margin-top: -30px;
     justify-content: space-between;
-    width: 100%;
+    width:72%;
     display: flex;
     
   }
