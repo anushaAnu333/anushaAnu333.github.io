@@ -90,7 +90,7 @@ const showMenu = ( toggleId, navId ) => {
   function handleResumeDownload() {
    console.log("working")
    const link = document.createElement("a");
-   window.open("https://drive.google.com/file/d/1x5MjVk7RpCN2rkVGVNytjlp1CdqJvb9L/view?usp=sharing", "_blank");
+   window.open("https://drive.google.com/file/d/1eDrJqHOMudYeQFhm84s3u4ybwmDa_181/view", "_blank");
    link.download = "./img/Anusha-Surendran-Resume.pdf";
    document.body.appendChild(link);
    link.click();
@@ -104,7 +104,7 @@ const showMenu = ( toggleId, navId ) => {
   function handleResumeDownload() {
    console.log("working")
    const link = document.createElement("a");
-   window.open("https://drive.google.com/file/d/1x5MjVk7RpCN2rkVGVNytjlp1CdqJvb9L/view?usp=sharing", "_blank");
+   window.open("https://drive.google.com/file/d/1eDrJqHOMudYeQFhm84s3u4ybwmDa_181/view", "_blank");
    link.download = "./img/Anusha-Surendran-Resume.pdf";
    document.body.appendChild(link);
    link.click();
