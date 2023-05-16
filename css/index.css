@@ -13,7 +13,25 @@ button{
   --header-height: 3rem;
   --font-semi: 600;
 }
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  width: 100%;
+}
+.github{
+width: 100%;
+text-align: left;
 
+}
+.gitgrid{
+
+flex-direction: column;
+display: flex;
+/* gap: 30%; */
+width: 100%;
+}
 /*===== Colores =====*/
 :root {
   --first-color: #ce1c1c;
@@ -473,7 +491,9 @@ img.man-icons {
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 3.5rem 0;
+
+  width: 104%;
+
 }
 .footer-title {
   font-size: 2rem;
@@ -775,5 +795,116 @@ img.man-icons {
     height: 324px;
     width: 261px;
    
+}
+}
+@media screen and (min-width: 414px) {
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    width: 100%;
+}
+.github{
+  width: 105%;
+  text-align: left;
+  
+}
+.gitgrid{
+  
+  flex-direction: column;
+  display: flex;
+  /* gap: 30%; */
+  width: 104%;
+}
+}
+@media screen and (min-width: 393px) {
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    width: 100%;
+}
+.github{
+  width: 105%;
+  text-align: left;
+  
+}
+.gitgrid{
+  
+  flex-direction: column;
+  display: flex;
+  /* gap: 30%; */
+  width: 104%;
+
+}
+.homeImg {
+  height: 274px;
+  width: 223px;
+  /* position: absolute; */
+}
+}
+@media screen and (min-width: 820px) {
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    width: 100%;
+}
+.github{
+  width: 100%;
+  text-align: left;
+  
+}
+.gitgrid{
+  
+  flex-direction: column;
+  display: flex;
+  /* gap: 30%; */
+  width: 100%;
+}
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    width: 100%;
+}
+.github{
+  width: 100%;
+  text-align: left;
+  
+}
+.gitgrid{
+  
+  flex-direction: column;
+  display: flex;
+  /* gap: 30%; */
+  width: 100%;
+}
+}
+@media screen and (min-width: 540px) {
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    width: 100%;
+}
+.github{
+  width: 100%;
+  text-align: left;
+  
+}
+.gitgrid{
+  
+  flex-direction: column;
+  display: flex;
+  /* gap: 30%; */
+  width: 100%;
 }
 }
